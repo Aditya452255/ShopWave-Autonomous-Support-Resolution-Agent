@@ -733,13 +733,16 @@ def build_ui() -> gr.Blocks:
 def launch_ui() -> None:
 	demo = build_ui()
 	port = int(os.getenv("PORT", "7860"))
-	render_mode = bool(os.getenv("RENDER"))
-	server_name = "0.0.0.0" if render_mode else "127.0.0.1"
+	running_behind_platform_proxy = "PORT" in os.environ
+	server_name = "0.0.0.0" if running_behind_platform_proxy else "127.0.0.1"
+	root_path = os.getenv("GRADIO_ROOT_PATH")
 	launch_kwargs = {
 		"show_error": True,
 		"inbrowser": False,
 		"server_port": port,
 	}
+	if root_path:
+		launch_kwargs["root_path"] = root_path
 
 	try:
 		demo.launch(server_name=server_name, **launch_kwargs)

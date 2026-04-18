@@ -10,6 +10,10 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.9
+      - key: GRADIO_SERVER_NAME
+        value: 0.0.0.0
+      - key: GRADIO_ROOT_PATH
+        value: /
       - key: ORCHESTRATION_MODE
         value: autogen
       - key: ENABLE_AUTOGEN
