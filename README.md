@@ -3,6 +3,11 @@
 ShopWave is a policy-first autonomous support resolution system for hackathon demos and practical experimentation.
 It combines deterministic guardrails with optional LLM assistance to process customer tickets safely.
 
+## Live Links
+
+- Render Deploy: https://shopwave-autonomous-support-resolution.onrender.com/
+- Project Walkthrough Video: https://drive.google.com/file/d/1y5gLNW4vCWZ8hlHW1xrxNyvB4G76MLU7/view
+
 ## What This Project Does
 
 1. Reads customer support tickets from structured JSON data.
