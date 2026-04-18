@@ -1,0 +1,502 @@
+﻿[
+    {
+        "product_id":  "P001",
+        "name":  "ProSound Wireless Headphones",
+        "category":  "electronics",
+        "price":  129.99,
+        "warranty_months":  12,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Return not accepted if seal is broken unless item is defective."
+    },
+    {
+        "product_id":  "P002",
+        "name":  "SwiftRun Pro Running Shoes",
+        "category":  "footwear",
+        "price":  89.99,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Must be unworn and in original packaging. No return if used outdoors."
+    },
+    {
+        "product_id":  "P003",
+        "name":  "BrewMaster 3000 Coffee Maker",
+        "category":  "home_appliances",
+        "price":  199.99,
+        "warranty_months":  24,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Warranty covers manufacturing defects only. Does not cover user damage."
+    },
+    {
+        "product_id":  "P004",
+        "name":  "ErgoLift Laptop Stand",
+        "category":  "electronics_accessories",
+        "price":  49.99,
+        "warranty_months":  6,
+        "return_window_days":  60,
+        "returnable":  true,
+        "notes":  "Extended 60-day return window applies to this product category."
+    },
+    {
+        "product_id":  "P005",
+        "name":  "ZenFlow Yoga Mat",
+        "category":  "sports",
+        "price":  39.99,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Non-returnable if used. Hygiene policy applies."
+    },
+    {
+        "product_id":  "P006",
+        "name":  "PulseX Smart Watch",
+        "category":  "electronics",
+        "price":  249.99,
+        "warranty_months":  12,
+        "return_window_days":  15,
+        "returnable":  true,
+        "notes":  "Only 15-day return window due to high-value electronics policy. Warranty covers hardware defects."
+    },
+    {
+        "product_id":  "P007",
+        "name":  "LumiDesk LED Desk Lamp",
+        "category":  "home",
+        "price":  44.99,
+        "warranty_months":  12,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Standard return policy applies."
+    },
+    {
+        "product_id":  "P008",
+        "name":  "BoomBox Mini Bluetooth Speaker",
+        "category":  "electronics",
+        "price":  79.99,
+        "warranty_months":  12,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Return not accepted if device has been registered online."
+    },
+    {
+        "product_id":  "P009",
+        "name":  "Nimbus Scale",
+        "category":  "electronics_accessories",
+        "price":  142.49,
+        "warranty_months":  6,
+        "return_window_days":  60,
+        "returnable":  true,
+        "notes":  "Extended return window applies to accessory products."
+    },
+    {
+        "product_id":  "P010",
+        "name":  "Pulse Router",
+        "category":  "sports",
+        "price":  155.99,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Hygiene and usage policy may limit returns after first use."
+    },
+    {
+        "product_id":  "P011",
+        "name":  "Core Tablet",
+        "category":  "home",
+        "price":  169.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Standard policy terms apply for returns and exchanges."
+    },
+    {
+        "product_id":  "P012",
+        "name":  "Luma Grill",
+        "category":  "electronics",
+        "price":  180.99,
+        "warranty_months":  12,
+        "return_window_days":  15,
+        "returnable":  true,
+        "notes":  "High-value electronics policy applies. Verify serial and packaging before return."
+    },
+    {
+        "product_id":  "P013",
+        "name":  "Zen Vacuum",
+        "category":  "footwear",
+        "price":  194.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Must be unworn and in original packaging for return approval."
+    },
+    {
+        "product_id":  "P014",
+        "name":  "Rapid Mic",
+        "category":  "home_appliances",
+        "price":  207.99,
+        "warranty_months":  24,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Warranty covers manufacturing defects; accidental damage excluded."
+    },
+    {
+        "product_id":  "P015",
+        "name":  "Smart Headset",
+        "category":  "electronics_accessories",
+        "price":  221.49,
+        "warranty_months":  6,
+        "return_window_days":  60,
+        "returnable":  true,
+        "notes":  "Extended return window applies to accessory products."
+    },
+    {
+        "product_id":  "P016",
+        "name":  "Pro Sneakers",
+        "category":  "sports",
+        "price":  232.99,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Hygiene and usage policy may limit returns after first use."
+    },
+    {
+        "product_id":  "P017",
+        "name":  "Edge Blender",
+        "category":  "home",
+        "price":  26.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Standard policy terms apply for returns and exchanges."
+    },
+    {
+        "product_id":  "P018",
+        "name":  "Summit Speaker",
+        "category":  "electronics",
+        "price":  39.99,
+        "warranty_months":  12,
+        "return_window_days":  15,
+        "returnable":  true,
+        "notes":  "High-value electronics policy applies. Verify serial and packaging before return."
+    },
+    {
+        "product_id":  "P019",
+        "name":  "Orbit Monitor",
+        "category":  "footwear",
+        "price":  53.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Must be unworn and in original packaging for return approval."
+    },
+    {
+        "product_id":  "P020",
+        "name":  "Ultra Keyboard",
+        "category":  "home_appliances",
+        "price":  64.99,
+        "warranty_months":  24,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Warranty covers manufacturing defects; accidental damage excluded."
+    },
+    {
+        "product_id":  "P021",
+        "name":  "Nova Mouse",
+        "category":  "electronics_accessories",
+        "price":  78.49,
+        "warranty_months":  6,
+        "return_window_days":  60,
+        "returnable":  true,
+        "notes":  "Extended return window applies to accessory products."
+    },
+    {
+        "product_id":  "P022",
+        "name":  "Prime Bottle",
+        "category":  "sports",
+        "price":  91.99,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Hygiene and usage policy may limit returns after first use."
+    },
+    {
+        "product_id":  "P023",
+        "name":  "Eco Backpack",
+        "category":  "home",
+        "price":  105.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Standard policy terms apply for returns and exchanges."
+    },
+    {
+        "product_id":  "P024",
+        "name":  "Aero Lamp",
+        "category":  "electronics",
+        "price":  116.99,
+        "warranty_months":  12,
+        "return_window_days":  15,
+        "returnable":  true,
+        "notes":  "High-value electronics policy applies. Verify serial and packaging before return."
+    },
+    {
+        "product_id":  "P025",
+        "name":  "Flex Charger",
+        "category":  "footwear",
+        "price":  130.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Must be unworn and in original packaging for return approval."
+    },
+    {
+        "product_id":  "P026",
+        "name":  "Quantum Camera",
+        "category":  "home_appliances",
+        "price":  143.99,
+        "warranty_months":  24,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Warranty covers manufacturing defects; accidental damage excluded."
+    },
+    {
+        "product_id":  "P027",
+        "name":  "Vertex Tracker",
+        "category":  "electronics_accessories",
+        "price":  157.49,
+        "warranty_months":  6,
+        "return_window_days":  60,
+        "returnable":  true,
+        "notes":  "Extended return window applies to accessory products."
+    },
+    {
+        "product_id":  "P028",
+        "name":  "Terra Kettle",
+        "category":  "sports",
+        "price":  168.99,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Hygiene and usage policy may limit returns after first use."
+    },
+    {
+        "product_id":  "P029",
+        "name":  "Nimbus Scale",
+        "category":  "home",
+        "price":  182.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Standard policy terms apply for returns and exchanges."
+    },
+    {
+        "product_id":  "P030",
+        "name":  "Pulse Router",
+        "category":  "electronics",
+        "price":  195.99,
+        "warranty_months":  12,
+        "return_window_days":  15,
+        "returnable":  true,
+        "notes":  "High-value electronics policy applies. Verify serial and packaging before return."
+    },
+    {
+        "product_id":  "P031",
+        "name":  "Core Tablet",
+        "category":  "footwear",
+        "price":  209.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Must be unworn and in original packaging for return approval."
+    },
+    {
+        "product_id":  "P032",
+        "name":  "Luma Grill",
+        "category":  "home_appliances",
+        "price":  220.99,
+        "warranty_months":  24,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Warranty covers manufacturing defects; accidental damage excluded."
+    },
+    {
+        "product_id":  "P033",
+        "name":  "Zen Vacuum",
+        "category":  "electronics_accessories",
+        "price":  234.49,
+        "warranty_months":  6,
+        "return_window_days":  60,
+        "returnable":  true,
+        "notes":  "Extended return window applies to accessory products."
+    },
+    {
+        "product_id":  "P034",
+        "name":  "Rapid Mic",
+        "category":  "sports",
+        "price":  27.99,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Hygiene and usage policy may limit returns after first use."
+    },
+    {
+        "product_id":  "P035",
+        "name":  "Smart Headset",
+        "category":  "home",
+        "price":  41.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Standard policy terms apply for returns and exchanges."
+    },
+    {
+        "product_id":  "P036",
+        "name":  "Pro Sneakers",
+        "category":  "electronics",
+        "price":  52.99,
+        "warranty_months":  12,
+        "return_window_days":  15,
+        "returnable":  true,
+        "notes":  "High-value electronics policy applies. Verify serial and packaging before return."
+    },
+    {
+        "product_id":  "P037",
+        "name":  "Edge Blender",
+        "category":  "footwear",
+        "price":  66.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Must be unworn and in original packaging for return approval."
+    },
+    {
+        "product_id":  "P038",
+        "name":  "Summit Speaker",
+        "category":  "home_appliances",
+        "price":  79.99,
+        "warranty_months":  24,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Warranty covers manufacturing defects; accidental damage excluded."
+    },
+    {
+        "product_id":  "P039",
+        "name":  "Orbit Monitor",
+        "category":  "electronics_accessories",
+        "price":  93.49,
+        "warranty_months":  6,
+        "return_window_days":  60,
+        "returnable":  true,
+        "notes":  "Extended return window applies to accessory products."
+    },
+    {
+        "product_id":  "P040",
+        "name":  "Ultra Keyboard",
+        "category":  "sports",
+        "price":  104.99,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Hygiene and usage policy may limit returns after first use."
+    },
+    {
+        "product_id":  "P041",
+        "name":  "Nova Mouse",
+        "category":  "home",
+        "price":  118.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Standard policy terms apply for returns and exchanges."
+    },
+    {
+        "product_id":  "P042",
+        "name":  "Prime Bottle",
+        "category":  "electronics",
+        "price":  131.99,
+        "warranty_months":  12,
+        "return_window_days":  15,
+        "returnable":  true,
+        "notes":  "High-value electronics policy applies. Verify serial and packaging before return."
+    },
+    {
+        "product_id":  "P043",
+        "name":  "Eco Backpack",
+        "category":  "footwear",
+        "price":  145.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Must be unworn and in original packaging for return approval."
+    },
+    {
+        "product_id":  "P044",
+        "name":  "Aero Lamp",
+        "category":  "home_appliances",
+        "price":  156.99,
+        "warranty_months":  24,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Warranty covers manufacturing defects; accidental damage excluded."
+    },
+    {
+        "product_id":  "P045",
+        "name":  "Flex Charger",
+        "category":  "electronics_accessories",
+        "price":  170.49,
+        "warranty_months":  6,
+        "return_window_days":  60,
+        "returnable":  true,
+        "notes":  "Extended return window applies to accessory products."
+    },
+    {
+        "product_id":  "P046",
+        "name":  "Quantum Camera",
+        "category":  "sports",
+        "price":  183.99,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Hygiene and usage policy may limit returns after first use."
+    },
+    {
+        "product_id":  "P047",
+        "name":  "Vertex Tracker",
+        "category":  "home",
+        "price":  197.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Standard policy terms apply for returns and exchanges."
+    },
+    {
+        "product_id":  "P048",
+        "name":  "Terra Kettle",
+        "category":  "electronics",
+        "price":  208.99,
+        "warranty_months":  12,
+        "return_window_days":  15,
+        "returnable":  true,
+        "notes":  "High-value electronics policy applies. Verify serial and packaging before return."
+    },
+    {
+        "product_id":  "P049",
+        "name":  "Nimbus Scale",
+        "category":  "footwear",
+        "price":  222.49,
+        "warranty_months":  0,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Must be unworn and in original packaging for return approval."
+    },
+    {
+        "product_id":  "P050",
+        "name":  "Pulse Router",
+        "category":  "home_appliances",
+        "price":  235.99,
+        "warranty_months":  24,
+        "return_window_days":  30,
+        "returnable":  true,
+        "notes":  "Warranty covers manufacturing defects; accidental damage excluded."
+    }
+]

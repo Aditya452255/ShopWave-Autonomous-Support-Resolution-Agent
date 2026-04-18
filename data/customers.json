@@ -1,0 +1,852 @@
+﻿[
+    {
+        "customer_id":  "C001",
+        "name":  "Alice Turner",
+        "email":  "alice.turner@email.com",
+        "phone":  "+1-415-555-0101",
+        "tier":  "vip",
+        "member_since":  "2019-03-12",
+        "total_orders":  47,
+        "total_spent":  6840.50,
+        "address":  {
+                        "street":  "12 Maple Avenue",
+                        "city":  "San Francisco",
+                        "state":  "CA",
+                        "zip":  "94102"
+                    },
+        "notes":  "Long-standing VIP. Has had 2 refunds in the past year, both approved."
+    },
+    {
+        "customer_id":  "C002",
+        "name":  "Bob Mendes",
+        "email":  "bob.mendes@email.com",
+        "phone":  "+1-212-555-0198",
+        "tier":  "standard",
+        "member_since":  "2023-10-05",
+        "total_orders":  3,
+        "total_spent":  210.00,
+        "address":  {
+                        "street":  "88 Birch Street",
+                        "city":  "New York",
+                        "state":  "NY",
+                        "zip":  "10001"
+                    },
+        "notes":  "New customer. No prior refund history."
+    },
+    {
+        "customer_id":  "C003",
+        "name":  "Carol Nguyen",
+        "email":  "carol.nguyen@email.com",
+        "phone":  "+1-312-555-0143",
+        "tier":  "premium",
+        "member_since":  "2021-06-18",
+        "total_orders":  22,
+        "total_spent":  3120.75,
+        "address":  {
+                        "street":  "45 Oak Lane",
+                        "city":  "Chicago",
+                        "state":  "IL",
+                        "zip":  "60601"
+                    },
+        "notes":  "Premium member. Prefers email communication."
+    },
+    {
+        "customer_id":  "C004",
+        "name":  "David Park",
+        "email":  "david.park@email.com",
+        "phone":  "+1-206-555-0177",
+        "tier":  "standard",
+        "member_since":  "2022-01-30",
+        "total_orders":  9,
+        "total_spent":  780.20,
+        "address":  {
+                        "street":  "300 Pine Road",
+                        "city":  "Seattle",
+                        "state":  "WA",
+                        "zip":  "98101"
+                    },
+        "notes":  "Has raised 1 chargeback dispute in the past - resolved in ShopWave\u0027s favour."
+    },
+    {
+        "customer_id":  "C005",
+        "name":  "Emma Collins",
+        "email":  "emma.collins@email.com",
+        "phone":  "+1-512-555-0165",
+        "tier":  "vip",
+        "member_since":  "2018-11-02",
+        "total_orders":  91,
+        "total_spent":  14220.00,
+        "address":  {
+                        "street":  "7 Sunset Blvd",
+                        "city":  "Austin",
+                        "state":  "TX",
+                        "zip":  "73301"
+                    },
+        "notes":  "Highest lifetime value customer. Has a standing exception for extended return windows pre-approved by management."
+    },
+    {
+        "customer_id":  "C006",
+        "name":  "Frank Osei",
+        "email":  "frank.osei@email.com",
+        "phone":  "+1-404-555-0112",
+        "tier":  "standard",
+        "member_since":  "2024-01-14",
+        "total_orders":  1,
+        "total_spent":  49.99,
+        "address":  {
+                        "street":  "19 Elm Street",
+                        "city":  "Atlanta",
+                        "state":  "GA",
+                        "zip":  "30301"
+                    },
+        "notes":  "Brand new customer. First and only order."
+    },
+    {
+        "customer_id":  "C007",
+        "name":  "Grace Patel",
+        "email":  "grace.patel@email.com",
+        "phone":  "+1-617-555-0134",
+        "tier":  "premium",
+        "member_since":  "2020-08-22",
+        "total_orders":  35,
+        "total_spent":  4890.00,
+        "address":  {
+                        "street":  "56 Willow Way",
+                        "city":  "Boston",
+                        "state":  "MA",
+                        "zip":  "02101"
+                    },
+        "notes":  "Premium member. Has submitted 4 refund requests - all legitimate, all approved."
+    },
+    {
+        "customer_id":  "C008",
+        "name":  "Henry Marsh",
+        "email":  "henry.marsh@email.com",
+        "phone":  "+1-303-555-0188",
+        "tier":  "standard",
+        "member_since":  "2022-05-19",
+        "total_orders":  14,
+        "total_spent":  1120.60,
+        "address":  {
+                        "street":  "210 Cedar Drive",
+                        "city":  "Denver",
+                        "state":  "CO",
+                        "zip":  "80201"
+                    },
+        "notes":  "Regular customer. No flags."
+    },
+    {
+        "customer_id":  "C009",
+        "name":  "Irene Castillo",
+        "email":  "irene.castillo@email.com",
+        "phone":  "+1-713-555-0156",
+        "tier":  "premium",
+        "member_since":  "2021-02-10",
+        "total_orders":  28,
+        "total_spent":  3670.90,
+        "address":  {
+                        "street":  "88 Rosewood Court",
+                        "city":  "Houston",
+                        "state":  "TX",
+                        "zip":  "77001"
+                    },
+        "notes":  "Premium member. Has reported 2 damaged item incidents - both verified."
+    },
+    {
+        "customer_id":  "C010",
+        "name":  "James Wu",
+        "email":  "james.wu@email.com",
+        "phone":  "+1-858-555-0199",
+        "tier":  "standard",
+        "member_since":  "2023-03-28",
+        "total_orders":  6,
+        "total_spent":  430.15,
+        "address":  {
+                        "street":  "40 Harbor View",
+                        "city":  "San Diego",
+                        "state":  "CA",
+                        "zip":  "92101"
+                    },
+        "notes":  "No issues on record."
+    },
+    {
+        "customer_id":  "C011",
+        "name":  "Lucas Diaz",
+        "email":  "lucas.diaz@email.com",
+        "phone":  "+1-387-555-1011",
+        "tier":  "standard",
+        "member_since":  "2019-08-07",
+        "total_orders":  57,
+        "total_spent":  7981.5,
+        "address":  {
+                        "street":  "54 Oak Avenue",
+                        "city":  "Phoenix",
+                        "state":  "AZ",
+                        "zip":  "85001"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C012",
+        "name":  "Elijah Cooper",
+        "email":  "elijah.cooper@email.com",
+        "phone":  "+1-404-555-1012",
+        "tier":  "premium",
+        "member_since":  "2019-09-29",
+        "total_orders":  62,
+        "total_spent":  9364.25,
+        "address":  {
+                        "street":  "58 Cedar Lane",
+                        "city":  "Dallas",
+                        "state":  "TX",
+                        "zip":  "75201"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C013",
+        "name":  "Harper Russell",
+        "email":  "harper.russell@email.com",
+        "phone":  "+1-421-555-1013",
+        "tier":  "standard",
+        "member_since":  "2019-11-21",
+        "total_orders":  67,
+        "total_spent":  10857,
+        "address":  {
+                        "street":  "62 Pine Road",
+                        "city":  "Miami",
+                        "state":  "FL",
+                        "zip":  "33101"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C014",
+        "name":  "Evelyn Perry",
+        "email":  "evelyn.perry@email.com",
+        "phone":  "+1-438-555-1014",
+        "tier":  "standard",
+        "member_since":  "2020-01-13",
+        "total_orders":  72,
+        "total_spent":  12459.75,
+        "address":  {
+                        "street":  "66 Willow Drive",
+                        "city":  "Portland",
+                        "state":  "OR",
+                        "zip":  "97201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C015",
+        "name":  "Abigail Morris",
+        "email":  "abigail.morris@email.com",
+        "phone":  "+1-455-555-1015",
+        "tier":  "premium",
+        "member_since":  "2020-03-06",
+        "total_orders":  77,
+        "total_spent":  14172.5,
+        "address":  {
+                        "street":  "70 Sunset Blvd",
+                        "city":  "Las Vegas",
+                        "state":  "NV",
+                        "zip":  "88901"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C016",
+        "name":  "Ella Long",
+        "email":  "ella.long@email.com",
+        "phone":  "+1-472-555-1016",
+        "tier":  "standard",
+        "member_since":  "2020-04-28",
+        "total_orders":  82,
+        "total_spent":  15995.25,
+        "address":  {
+                        "street":  "74 River Way",
+                        "city":  "Charlotte",
+                        "state":  "NC",
+                        "zip":  "28201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C017",
+        "name":  "Scarlett Hughes",
+        "email":  "scarlett.hughes@email.com",
+        "phone":  "+1-489-555-1017",
+        "tier":  "standard",
+        "member_since":  "2020-06-20",
+        "total_orders":  87,
+        "total_spent":  17928,
+        "address":  {
+                        "street":  "78 Hillcrest Ave",
+                        "city":  "Detroit",
+                        "state":  "MI",
+                        "zip":  "48201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C018",
+        "name":  "Aria Flores",
+        "email":  "aria.flores@email.com",
+        "phone":  "+1-506-555-1018",
+        "tier":  "premium",
+        "member_since":  "2020-08-12",
+        "total_orders":  92,
+        "total_spent":  2484,
+        "address":  {
+                        "street":  "82 Lakeview Road",
+                        "city":  "Nashville",
+                        "state":  "TN",
+                        "zip":  "37201"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C019",
+        "name":  "Nora Powell",
+        "email":  "nora.powell@email.com",
+        "phone":  "+1-523-555-1019",
+        "tier":  "standard",
+        "member_since":  "2020-10-04",
+        "total_orders":  2,
+        "total_spent":  76.75,
+        "address":  {
+                        "street":  "86 Park Lane",
+                        "city":  "Minneapolis",
+                        "state":  "MN",
+                        "zip":  "55401"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C020",
+        "name":  "Chloe Butler",
+        "email":  "chloe.butler@email.com",
+        "phone":  "+1-540-555-1020",
+        "tier":  "vip",
+        "member_since":  "2020-11-26",
+        "total_orders":  7,
+        "total_spent":  344.5,
+        "address":  {
+                        "street":  "90 Maple Street",
+                        "city":  "Los Angeles",
+                        "state":  "CA",
+                        "zip":  "90001"
+                    },
+        "notes":  "VIP profile. Prior escalations handled with priority routing."
+    },
+    {
+        "customer_id":  "C021",
+        "name":  "Zoe Simmons",
+        "email":  "zoe.simmons@email.com",
+        "phone":  "+1-557-555-1021",
+        "tier":  "premium",
+        "member_since":  "2021-01-18",
+        "total_orders":  12,
+        "total_spent":  722.25,
+        "address":  {
+                        "street":  "94 Oak Avenue",
+                        "city":  "Phoenix",
+                        "state":  "AZ",
+                        "zip":  "85001"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C022",
+        "name":  "Layla Patterson",
+        "email":  "layla.patterson@email.com",
+        "phone":  "+1-574-555-1022",
+        "tier":  "standard",
+        "member_since":  "2021-03-12",
+        "total_orders":  17,
+        "total_spent":  1210,
+        "address":  {
+                        "street":  "98 Cedar Lane",
+                        "city":  "Dallas",
+                        "state":  "TX",
+                        "zip":  "75201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C023",
+        "name":  "Hannah Gonzalez",
+        "email":  "hannah.gonzalez@email.com",
+        "phone":  "+1-591-555-1023",
+        "tier":  "standard",
+        "member_since":  "2021-05-04",
+        "total_orders":  22,
+        "total_spent":  1807.75,
+        "address":  {
+                        "street":  "102 Pine Road",
+                        "city":  "Miami",
+                        "state":  "FL",
+                        "zip":  "33101"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C024",
+        "name":  "Leah Murphy",
+        "email":  "leah.murphy@email.com",
+        "phone":  "+1-608-555-1024",
+        "tier":  "premium",
+        "member_since":  "2021-06-26",
+        "total_orders":  27,
+        "total_spent":  2515.5,
+        "address":  {
+                        "street":  "106 Willow Drive",
+                        "city":  "Portland",
+                        "state":  "OR",
+                        "zip":  "97201"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C025",
+        "name":  "Aiden Bailey",
+        "email":  "aiden.bailey@email.com",
+        "phone":  "+1-625-555-1025",
+        "tier":  "standard",
+        "member_since":  "2021-08-18",
+        "total_orders":  32,
+        "total_spent":  3333.25,
+        "address":  {
+                        "street":  "110 Sunset Blvd",
+                        "city":  "Las Vegas",
+                        "state":  "NV",
+                        "zip":  "88901"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C026",
+        "name":  "Wyatt Ramirez",
+        "email":  "wyatt.ramirez@email.com",
+        "phone":  "+1-642-555-1026",
+        "tier":  "standard",
+        "member_since":  "2021-10-10",
+        "total_orders":  37,
+        "total_spent":  4261,
+        "address":  {
+                        "street":  "114 River Way",
+                        "city":  "Charlotte",
+                        "state":  "NC",
+                        "zip":  "28201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C027",
+        "name":  "Julian Reed",
+        "email":  "julian.reed@email.com",
+        "phone":  "+1-659-555-1027",
+        "tier":  "premium",
+        "member_since":  "2021-12-02",
+        "total_orders":  42,
+        "total_spent":  5292,
+        "address":  {
+                        "street":  "118 Hillcrest Ave",
+                        "city":  "Detroit",
+                        "state":  "MI",
+                        "zip":  "48201"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C028",
+        "name":  "Mateo Foster",
+        "email":  "mateo.foster@email.com",
+        "phone":  "+1-676-555-1028",
+        "tier":  "standard",
+        "member_since":  "2022-01-24",
+        "total_orders":  47,
+        "total_spent":  6439.75,
+        "address":  {
+                        "street":  "122 Lakeview Road",
+                        "city":  "Nashville",
+                        "state":  "TN",
+                        "zip":  "37201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C029",
+        "name":  "Ivy Hayes",
+        "email":  "ivy.hayes@email.com",
+        "phone":  "+1-693-555-1029",
+        "tier":  "standard",
+        "member_since":  "2022-03-18",
+        "total_orders":  52,
+        "total_spent":  7697.5,
+        "address":  {
+                        "street":  "126 Park Lane",
+                        "city":  "Minneapolis",
+                        "state":  "MN",
+                        "zip":  "55401"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C030",
+        "name":  "Penelope Brooks",
+        "email":  "penelope.brooks@email.com",
+        "phone":  "+1-710-555-1030",
+        "tier":  "vip",
+        "member_since":  "2022-05-10",
+        "total_orders":  57,
+        "total_spent":  9065.25,
+        "address":  {
+                        "street":  "130 Maple Street",
+                        "city":  "Los Angeles",
+                        "state":  "CA",
+                        "zip":  "90001"
+                    },
+        "notes":  "VIP profile. Prior escalations handled with priority routing."
+    },
+    {
+        "customer_id":  "C031",
+        "name":  "Liam Price",
+        "email":  "liam.price@email.com",
+        "phone":  "+1-727-555-1031",
+        "tier":  "standard",
+        "member_since":  "2022-07-02",
+        "total_orders":  62,
+        "total_spent":  10543,
+        "address":  {
+                        "street":  "134 Oak Avenue",
+                        "city":  "Phoenix",
+                        "state":  "AZ",
+                        "zip":  "85001"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C032",
+        "name":  "Noah Bell",
+        "email":  "noah.bell@email.com",
+        "phone":  "+1-744-555-1032",
+        "tier":  "standard",
+        "member_since":  "2022-08-24",
+        "total_orders":  67,
+        "total_spent":  12130.75,
+        "address":  {
+                        "street":  "138 Cedar Lane",
+                        "city":  "Dallas",
+                        "state":  "TX",
+                        "zip":  "75201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C033",
+        "name":  "Mason Cole",
+        "email":  "mason.cole@email.com",
+        "phone":  "+1-761-555-1033",
+        "tier":  "premium",
+        "member_since":  "2022-10-16",
+        "total_orders":  72,
+        "total_spent":  13828.5,
+        "address":  {
+                        "street":  "142 Pine Road",
+                        "city":  "Miami",
+                        "state":  "FL",
+                        "zip":  "33101"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C034",
+        "name":  "Ethan Gray",
+        "email":  "ethan.gray@email.com",
+        "phone":  "+1-778-555-1034",
+        "tier":  "standard",
+        "member_since":  "2022-12-08",
+        "total_orders":  77,
+        "total_spent":  15636.25,
+        "address":  {
+                        "street":  "146 Willow Drive",
+                        "city":  "Portland",
+                        "state":  "OR",
+                        "zip":  "97201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C035",
+        "name":  "Ava Ward",
+        "email":  "ava.ward@email.com",
+        "phone":  "+1-795-555-1035",
+        "tier":  "standard",
+        "member_since":  "2023-01-30",
+        "total_orders":  82,
+        "total_spent":  1974,
+        "address":  {
+                        "street":  "150 Sunset Blvd",
+                        "city":  "Las Vegas",
+                        "state":  "NV",
+                        "zip":  "88901"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C036",
+        "name":  "Mia Bennett",
+        "email":  "mia.bennett@email.com",
+        "phone":  "+1-812-555-1036",
+        "tier":  "premium",
+        "member_since":  "2023-03-24",
+        "total_orders":  87,
+        "total_spent":  3045,
+        "address":  {
+                        "street":  "154 River Way",
+                        "city":  "Charlotte",
+                        "state":  "NC",
+                        "zip":  "28201"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C037",
+        "name":  "Olivia Rivera",
+        "email":  "olivia.rivera@email.com",
+        "phone":  "+1-829-555-1037",
+        "tier":  "standard",
+        "member_since":  "2023-05-16",
+        "total_orders":  92,
+        "total_spent":  4232.75,
+        "address":  {
+                        "street":  "158 Hillcrest Ave",
+                        "city":  "Detroit",
+                        "state":  "MI",
+                        "zip":  "48201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C038",
+        "name":  "Sophia Sullivan",
+        "email":  "sophia.sullivan@email.com",
+        "phone":  "+1-846-555-1038",
+        "tier":  "standard",
+        "member_since":  "2023-07-08",
+        "total_orders":  2,
+        "total_spent":  115.5,
+        "address":  {
+                        "street":  "162 Lakeview Road",
+                        "city":  "Nashville",
+                        "state":  "TN",
+                        "zip":  "37201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C039",
+        "name":  "Isabella Carter",
+        "email":  "isabella.carter@email.com",
+        "phone":  "+1-863-555-1039",
+        "tier":  "premium",
+        "member_since":  "2023-08-30",
+        "total_orders":  7,
+        "total_spent":  478.25,
+        "address":  {
+                        "street":  "166 Park Lane",
+                        "city":  "Minneapolis",
+                        "state":  "MN",
+                        "zip":  "55401"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C040",
+        "name":  "Amelia Mitchell",
+        "email":  "amelia.mitchell@email.com",
+        "phone":  "+1-880-555-1040",
+        "tier":  "vip",
+        "member_since":  "2023-10-22",
+        "total_orders":  12,
+        "total_spent":  951,
+        "address":  {
+                        "street":  "170 Maple Street",
+                        "city":  "Los Angeles",
+                        "state":  "CA",
+                        "zip":  "90001"
+                    },
+        "notes":  "VIP profile. Prior escalations handled with priority routing."
+    },
+    {
+        "customer_id":  "C041",
+        "name":  "Lucas Diaz",
+        "email":  "lucas.diaz@email.com",
+        "phone":  "+1-897-555-1041",
+        "tier":  "standard",
+        "member_since":  "2023-12-14",
+        "total_orders":  17,
+        "total_spent":  1533.75,
+        "address":  {
+                        "street":  "174 Oak Avenue",
+                        "city":  "Phoenix",
+                        "state":  "AZ",
+                        "zip":  "85001"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C042",
+        "name":  "Elijah Cooper",
+        "email":  "elijah.cooper@email.com",
+        "phone":  "+1-214-555-1042",
+        "tier":  "premium",
+        "member_since":  "2024-02-05",
+        "total_orders":  22,
+        "total_spent":  2226.5,
+        "address":  {
+                        "street":  "178 Cedar Lane",
+                        "city":  "Dallas",
+                        "state":  "TX",
+                        "zip":  "75201"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C043",
+        "name":  "Harper Russell",
+        "email":  "harper.russell@email.com",
+        "phone":  "+1-231-555-1043",
+        "tier":  "standard",
+        "member_since":  "2024-03-29",
+        "total_orders":  27,
+        "total_spent":  3029.25,
+        "address":  {
+                        "street":  "182 Pine Road",
+                        "city":  "Miami",
+                        "state":  "FL",
+                        "zip":  "33101"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C044",
+        "name":  "Evelyn Perry",
+        "email":  "evelyn.perry@email.com",
+        "phone":  "+1-248-555-1044",
+        "tier":  "standard",
+        "member_since":  "2024-05-21",
+        "total_orders":  32,
+        "total_spent":  3942,
+        "address":  {
+                        "street":  "186 Willow Drive",
+                        "city":  "Portland",
+                        "state":  "OR",
+                        "zip":  "97201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C045",
+        "name":  "Abigail Morris",
+        "email":  "abigail.morris@email.com",
+        "phone":  "+1-265-555-1045",
+        "tier":  "premium",
+        "member_since":  "2024-07-13",
+        "total_orders":  37,
+        "total_spent":  4958,
+        "address":  {
+                        "street":  "190 Sunset Blvd",
+                        "city":  "Las Vegas",
+                        "state":  "NV",
+                        "zip":  "88901"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C046",
+        "name":  "Ella Long",
+        "email":  "ella.long@email.com",
+        "phone":  "+1-282-555-1046",
+        "tier":  "standard",
+        "member_since":  "2024-09-04",
+        "total_orders":  42,
+        "total_spent":  6090.75,
+        "address":  {
+                        "street":  "194 River Way",
+                        "city":  "Charlotte",
+                        "state":  "NC",
+                        "zip":  "28201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C047",
+        "name":  "Scarlett Hughes",
+        "email":  "scarlett.hughes@email.com",
+        "phone":  "+1-299-555-1047",
+        "tier":  "standard",
+        "member_since":  "2024-10-27",
+        "total_orders":  47,
+        "total_spent":  7333.5,
+        "address":  {
+                        "street":  "198 Hillcrest Ave",
+                        "city":  "Detroit",
+                        "state":  "MI",
+                        "zip":  "48201"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C048",
+        "name":  "Aria Flores",
+        "email":  "aria.flores@email.com",
+        "phone":  "+1-316-555-1048",
+        "tier":  "premium",
+        "member_since":  "2024-12-19",
+        "total_orders":  52,
+        "total_spent":  8686.25,
+        "address":  {
+                        "street":  "202 Lakeview Road",
+                        "city":  "Nashville",
+                        "state":  "TN",
+                        "zip":  "37201"
+                    },
+        "notes":  "Premium member with moderate purchase frequency and stable account history."
+    },
+    {
+        "customer_id":  "C049",
+        "name":  "Nora Powell",
+        "email":  "nora.powell@email.com",
+        "phone":  "+1-333-555-1049",
+        "tier":  "standard",
+        "member_since":  "2025-02-10",
+        "total_orders":  57,
+        "total_spent":  10149,
+        "address":  {
+                        "street":  "206 Park Lane",
+                        "city":  "Minneapolis",
+                        "state":  "MN",
+                        "zip":  "55401"
+                    },
+        "notes":  "Standard member with routine support interactions and no major risk flags."
+    },
+    {
+        "customer_id":  "C050",
+        "name":  "Chloe Butler",
+        "email":  "chloe.butler@email.com",
+        "phone":  "+1-350-555-1050",
+        "tier":  "vip",
+        "member_since":  "2018-02-20",
+        "total_orders":  62,
+        "total_spent":  11721.75,
+        "address":  {
+                        "street":  "210 Maple Street",
+                        "city":  "Los Angeles",
+                        "state":  "CA",
+                        "zip":  "90001"
+                    },
+        "notes":  "VIP profile. Prior escalations handled with priority routing."
+    }
+]

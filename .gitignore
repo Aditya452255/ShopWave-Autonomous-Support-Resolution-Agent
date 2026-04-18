@@ -1,0 +1,25 @@
+# Python cache and artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+
+# Build/distribution
+build/
+dist/
+*.egg-info/
+
+# IDE/OS noise
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime-generated artifacts
+artifacts/audit_log.json
