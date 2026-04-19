@@ -8,6 +8,12 @@ It combines deterministic guardrails with optional LLM assistance to process cus
 - Render Deploy: https://shopwave-autonomous-support-resolution.onrender.com/
 - Project Walkthrough Video: https://drive.google.com/file/d/1y5gLNW4vCWZ8hlHW1xrxNyvB4G76MLU7/view
 
+## Required Submission Files
+
+- [Setup, run instructions, and tech stack](README.md)
+- [Architecture diagram](docs/architecture.png)
+- [Failure modes and recovery guide](docs/failure_modes.md)
+
 ## What This Project Does
 
 1. Reads customer support tickets from structured JSON data.
@@ -32,6 +38,19 @@ It combines deterministic guardrails with optional LLM assistance to process cus
 - openai (for OpenAI-compatible provider path)
 - Gradio 5.x
 - python-dotenv
+
+## Architecture At A Glance
+
+The agent loop is:
+
+1. ingest ticket data,
+2. plan the case-specific actions,
+3. execute guarded tools,
+4. critique policy and risk,
+5. apply confidence and escalation rules,
+6. persist the decision audit.
+
+See the rendered diagram in [docs/architecture.png](docs/architecture.png) and the detailed reference in [docs/architecture.md](docs/architecture.md).
 
 ## Quick Start
 
